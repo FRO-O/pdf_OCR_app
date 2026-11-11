@@ -37,16 +37,20 @@
 git clone https://github.com/ваш_никнейм/pdf_ocr_app.git
 cd pdf_ocr_app
 python -m pip install -r requirements.txt
+```
 
 ### 3. Установка GPU-версии PaddlePaddle (Рекомендуется)
 Если у вас есть NVIDIA, установите GPU-версию для ускорения в 5-10 раз:
 ```bash
 python -m pip uninstall paddlepaddle
 python -m pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+```
 
 ### 4. Запуск
 ```bash
+
 python main.py
+```
 
 ## 🛠️ Как пользоваться
 
