@@ -1,0 +1,36 @@
+pdf_ocr_app/
+├── main.py                          ✅ готово
+├── requirements.txt                 ✅ готово
+│
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py               ✅ готово
+│   ├── settings_manager.py          ✅ готово
+│   └── widgets/
+│       ├── __init__.py
+│       └── slider_block.py          ✅ готово
+│
+├── core/
+│   ├── __init__.py
+│   ├── page.py                      ✅ готово
+│   ├── pdf_loader.py                ✅ готово
+│   ├── image_loader.py              ✅ готово
+│   ├── preprocessor.py              ✅ готово
+│   ├── box_merger.py                ✅ готово
+│   └── ocr/
+│       ├── __init__.py
+│       ├── base.py                  ✅ готово
+│       ├── factory.py               ✅ готово
+│       └── easyocr_engine.py        ✅ готово
+│
+├── exporters/
+│   ├── __init__.py
+│   ├── base.py                      ✅ готово
+│   ├── pptx_exporter.py             ✅ готово
+│   ├── indesign_exporter.py         ✅ готово
+│   └── illustrator_exporter.py      ✅ готово
+│
+└── app/
+    ├── __init__.py
+    ├── pipeline.py                  ✅ готово
+    └── dependency_check.py          ✅ готово
